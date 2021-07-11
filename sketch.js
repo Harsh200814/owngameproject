@@ -75,6 +75,7 @@
   GameState=1;
   doremon.changeAnimation("running",doremonimg);
   revivingSound.play();
+  score=0;
   }
   }
   doremon.collide(invisibleGround);
