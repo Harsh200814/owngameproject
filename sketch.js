@@ -72,10 +72,11 @@
   obstaclesGroup.setLifetimeEach(0);
   doracakeGroup.setLifetimeEach(0);
   if(mousePressedOver(restart)){
-  GameState=1;
+  score=0;
+    GameState=1;
   doremon.changeAnimation("running",doremonimg);
   revivingSound.play();
-  score=0;
+  
   }
   }
   doremon.collide(invisibleGround);
