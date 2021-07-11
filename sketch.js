@@ -37,6 +37,7 @@
     restart.scale=0.8;
     obstaclesGroup=new Group ();
     doracakeGroup=new Group ();
+    score=0;
   }
   function draw(){
   background(bgimg);
