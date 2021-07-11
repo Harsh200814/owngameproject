@@ -37,7 +37,7 @@
     restart.scale=0.8;
     obstaclesGroup=new Group ();
     doracakeGroup=new Group ();
-    score=0;
+    
   }
   function draw(){
   background(bgimg);
@@ -72,9 +72,9 @@
   restart.visible=true;
   obstaclesGroup.setLifetimeEach(0);
   doracakeGroup.setLifetimeEach(0);
+    score=0;
   if(mousePressedOver(restart)){
-  score=0;
-    GameState=1;
+  GameState=1;
   doremon.changeAnimation("running",doremonimg);
   revivingSound.play();
   
